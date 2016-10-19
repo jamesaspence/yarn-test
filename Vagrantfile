@@ -11,4 +11,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # preferred. This will allow us to access
   # the site via that ip address.
   config.vm.network "private_network", ip: "192.168.99.10"
+  config.vm.provider "virtualbox" do |v|
+      v.memory = 512
+  end
 end
