@@ -9,9 +9,25 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.1.2",
+    "dotenv": "^2.0.0",
     "express": "^4.14.0",
+    "express-validator": "^2.20.10",
+    "jquery": "^3.1.1",
+    "keystone": "^4.0.0-beta.3",
+    "moment": "^2.15.1",
+    "moment-timezone": "^0.5.6",
+    "mysql": "^2.11.1",
+    "nodemailer": "^2.6.4",
+    "passport": "^0.3.2",
     "react": "^15.3.2",
+    "react-dom": "^15.3.2",
     "react-router": "^2.8.1",
-    "request": "^2.75.0"
+    "request": "^2.75.0",
+    "sequelize": "^3.24.4",
+    "sequelize-cli": "^2.4.0",
+    "socket.io": "^1.5.0",
+    "squel": "^5.5.0",
+    "validator": "^6.1.0"
   }
 }
